@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "org/hposadas/steps"
+        glue = "org/hposadas/steps",
+        tags = "@ContainsInName or @ContainsInUsername or @ContainsIsNameOrUsername"
         /*,
         plugin = {
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
