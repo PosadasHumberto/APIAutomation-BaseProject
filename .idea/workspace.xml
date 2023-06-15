@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd4e0a09-969c-42d0-a15d-562541282ee1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/steps/BraveNewCoinAPISteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/payload/TokenRequestBody.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/BraveNewCoin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BraveNewCoin.feature" afterDir="false" />
     </list>
@@ -52,6 +54,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -78,7 +87,67 @@
       <recent name="D:\Formaciones\Udemy\API Automation\proyectos\ApiAutomation\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: ">
+  <component name="RunManager" selected="Cucumber Java.Scenario: As a user, when i send the POST request without &quot;grant_type&quot;, I get an HTTP Code Status 400">
+    <configuration name="Scenario: As a user, I can retrieve token when making a valid POST Request" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BraveNewCoin.feature" />
+      <option name="GLUE" value="org.hposadas.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ApiAutomation.test" />
+      <option name="NAME_FILTER" value="^As a user\, I can retrieve token when making a valid POST Request$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a user\, I can retrieve token when making a valid POST Request$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user, I can retrieve token when making a valid POST Request" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: As a user, when I use an invalid API Key, I get an HTTP Code Status 403" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BraveNewCoin.feature" />
+      <option name="GLUE" value="org.hposadas.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ApiAutomation.test" />
+      <option name="NAME_FILTER" value="^As a user\, when I use an invalid API Key\, I get an HTTP Code Status 403$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a user\, when I use an invalid API Key\, I get an HTTP Code Status 403$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user, when I use an invalid API Key, I get an HTTP Code Status 403" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: As a user, when i send the POST request without &quot;grant_type&quot;, I get an HTTP Code Status 400" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BraveNewCoin.feature" />
+      <option name="GLUE" value="org.hposadas.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ApiAutomation.test" />
+      <option name="NAME_FILTER" value="^As a user\, when i send the POST request without \&quot;grant_type\&quot;\, I get an HTTP Code Status 400$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a user\, when i send the POST request without \&quot;grant_type\&quot;\, I get an HTTP Code Status 400$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user, when i send the POST request without &quot;grant_type&quot;, I get an HTTP Code Status 400" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Validate response contains an element by name or username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APITest.feature" />
@@ -88,46 +157,6 @@
       <option name="NAME_FILTER" value="^Validate response contains an element by name or username$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate response contains an element by name or username$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Validate response contains an element by name or username" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Validate response contains an element by name" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APITest.feature" />
-      <option name="GLUE" value="org.hposadas.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="ApiAutomation.test" />
-      <option name="NAME_FILTER" value="^Validate response contains an element by name$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate response contains an element by name$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validate response contains an element by name" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Validate response contains an element by username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APITest.feature" />
-      <option name="GLUE" value="org.hposadas.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="ApiAutomation.test" />
-      <option name="NAME_FILTER" value="^Validate response contains an element by username$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate response contains an element by username$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validate response contains an element by username" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,34 +188,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiAutomation [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: As a user, when i send the POST request without &quot;grant_type&quot;, I get an HTTP Code Status 400" />
+        <item itemvalue="Cucumber Java.Scenario: As a user, when I use an invalid API Key, I get an HTTP Code Status 403" />
+        <item itemvalue="Cucumber Java.Scenario: As a user, I can retrieve token when making a valid POST Request" />
         <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Scenario: Validate response contains an element by name or username" />
-        <item itemvalue="Cucumber Java.Scenario: Validate response contains an element by username" />
-        <item itemvalue="Cucumber Java.Scenario: Validate response contains an element by name" />
-        <item itemvalue="Gradle.ApiAutomation [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686642741651</updated>
       <workItem from="1686642744257" duration="3000" />
-      <workItem from="1686667265449" duration="31055000" />
+      <workItem from="1686667265449" duration="38041000" />
     </task>
     <servers />
   </component>
@@ -218,14 +226,10 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/hposadas/steps/APISteps.java</url>
-          <line>118</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.restassured.internal.ValidatableResponseImpl" memberName="response" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
