@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd4e0a09-969c-42d0-a15d-562541282ee1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/steps/BraveNewCoinAPISteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/payload/TokenRequestBody.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BraveNewCoin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BraveNewCoin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hposadas/steps/APISteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/steps/APISteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hposadas/steps/BraveNewCoinAPISteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/steps/BraveNewCoinAPISteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686642741651</updated>
       <workItem from="1686642744257" duration="3000" />
-      <workItem from="1686667265449" duration="38041000" />
+      <workItem from="1686667265449" duration="40830000" />
     </task>
     <servers />
   </component>
